@@ -1,0 +1,108 @@
+html, body {
+  border-radius: 10px; /* Add this line for circular corners */
+}
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+select,
+input[type="text"],
+button {
+  width: calc(100% - 20px); /* Adjusted width for consistency */
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+textarea {
+  width: calc(100% - 20px); /* Adjusted width for consistency */
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-family: 'Fira Code', monospace; /* Use Fira Code font for the text area */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button {
+  background-color: #8250c8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #6d42aa;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#snippetList {
+  margin-top: 20px;
+}
+
+/* Styling for dark mode */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode textarea,
+body.dark-mode select,
+body.dark-mode input[type="text"] {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark-mode button {
+  background-color: #8250c8;
+  color: #fff;
+}
+
+body.dark-mode button:hover {
+  background-color: #6d42aa;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+body.dark-mode input[type="checkbox"] {
+  background-color: #333;
+}
+
+.snippet-list .snippet {
+  position: relative;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #8250c8; /* Separating line between snippets */
+  padding-bottom: 10px; /* Padding at the bottom of each snippet */
+}
+
+.snippet-list .snippet span {
+  color: #8250c8; /* Purple text color for snippet names */
+}
+
+.snippet-list .snippet-options {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.snippet-list .snippet-options button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 3px;
+  color: #8250c8;
+}
+
+.snippet-list .snippet:hover .snippet-options {
+  display: flex;
+}
+
+.snippet-list .snippet:hover .snippet-options button {
+  color: #8250c8;
+  box-shadow: none;
+}
