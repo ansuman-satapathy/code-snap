@@ -1,4 +1,4 @@
-# CodeSnap- Code Snippet Manager🦑
+# CodeSnap - Code Snippet Manager🦑
 
 Code Snippet Manager is a Chrome extension that simplifies the management of code snippets directly from your browser. Save, edit, and load code snippets effortlessly.
 
