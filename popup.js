@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "JSON",
       "Bash",
       "SQL",
+      "Other",
     ];
     const snippets = data.snippets || [];
 
@@ -169,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Format the snippet based on the selected language
   function formatSnippet(language, text) {
-    // You can implement code formatting based on the language here
+    // Yet to be implemented
     return text;
   }
 
