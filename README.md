@@ -50,8 +50,9 @@ If you encounter any issues or have questions, ask away.
 
 ## Feedback and Support
 
-- We value your feedback! You can contact me at satapathyansusman@gmail.com
+- I value your feedback! You can contact me at satapathyansuman@gmail.com
 - Additionally, you can support me so that I can publish this extension.
+- Buy me a Coffee [here](https://www.buymeacoffee.com/ansumannn)
 
 ## Contribution
 
